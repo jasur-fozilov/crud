@@ -14,7 +14,7 @@
           <li{% if request.path == '/books/' %} class="active"{% endif %}>
             <a href="{% url 'book_list' %}">Books</a>
           </li>
-          <li><a href="https://simpleisbetterthancomplex.com">simpleisbetterthancomplex.com</a></li>
+          {% comment %} <li><a href="https://simpleisbetterthancomplex.com">simpleisbetterthancomplex.com</a></li> {% endcomment %}
         </ul>
       </div>
     </div>
