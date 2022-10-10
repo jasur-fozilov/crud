@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-oy369-p-7&!%)_h@y&3mn$bw4a7=i3_jz2w^t927+tz)e#zc=2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bookdjangocrud.herokuapp.com']
 
 
 # Application definition
